@@ -1,0 +1,27 @@
+[
+  { "username": "user1", "password": "pass1" },
+  { "username": "admin", "password": "wrongpass" },
+  { "username": "test", "password": "test123" },
+ 
+  { "username": "another", "password": "nopass" },
+   { "username": "another", "password": "nopass" },
+    { "username": "another", "password": "nopass" },
+     { "username": "another", "password": "nopass" },
+      { "username": "another", "password": "nopass" },
+       { "username": "another", "password": "nopass" },
+        { "username": "another", "password": "nopass" },
+         { "username": "another", "password": "nopass" },
+          { "username": "another", "password": "nopass" },
+           { "username": "another", "password": "nopass" },
+            { "username": "another", "password": "nopass" },
+             { "username": "another", "password": "nopass" },
+              { "username": "another", "password": "nopass" },
+               { "username": "another", "password": "nopass" },
+                { "username": "another", "password": "nopass" },
+                 { "username": "another", "password": "nopass" },
+                  { "username": "another", "password": "nopass" },
+                   { "username": "another", "password": "nopass" },
+                    { "username": "another", "password": "nopass" },
+                     { "username": "another", "password": "nopass" },
+                      { "username": "another", "password": "nopass" }
+]
