@@ -47,10 +47,4 @@ app.post('/login', (req, res) => {
   }
 });
 
-// Show all blocked IPs
-app.get('/blocked', (req, res) => {
-  const blockedList = Object.keys(blockedIps);
-  res.json({ blockedIps: blockedList });
-});
-
 app.listen(PORT, () => console.log(`🚀 Server running at http://localhost:${PORT}`));

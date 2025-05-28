@@ -1,0 +1,36 @@
+/* Home page container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9fafb;
+  text-align: center;
+}
+
+/* Heading style */
+.home-container h1 {
+  font-size: 36px;
+  color: #374151;
+  margin-bottom: 20px;
+}
+
+/* Image style */
+.home-image {
+  max-width: 500px;
+  width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive for small screens */
+@media (max-width: 480px) {
+  .home-container h1 {
+    font-size: 28px;
+  }
+
+  .home-image {
+    max-width: 90%;
+  }
+}
