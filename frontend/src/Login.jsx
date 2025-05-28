@@ -11,7 +11,7 @@ function Login() {
 
   const handleLogin = async () => {
     try {
-      const res = await axios.post('http://localhost:3000/login', { username, password })
+      const res = await axios.post('http://13.250.213.36:3020/login', { username, password })
       if (res.data.success) {
         navigate('/home')
       }
