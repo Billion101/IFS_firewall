@@ -1,3 +1,4 @@
+import React from 'react'
 import './Home.css'
 import memeImage from '../src/assets/image.jpg' 
 
